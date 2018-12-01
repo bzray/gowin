@@ -16,6 +16,7 @@ func main() {
 		exec(GUI)
 	}
 
+	
 	defer func() {
 		if err := recover(); err != nil {
 			name := "error.txt"
